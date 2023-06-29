@@ -19,8 +19,7 @@ public class Exam_Exception {
 			System.out.printf("몫은 %d입니다~", result);			
 		}catch(ArithmeticException e)
 		{
-			System.out.println("이런이런 0으로 나누려고 하시네요?");
-			
+			System.out.println(e.getMessage());
 			
 		}
 	}

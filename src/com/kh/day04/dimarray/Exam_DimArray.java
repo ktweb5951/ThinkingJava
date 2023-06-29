@@ -42,7 +42,7 @@ public class Exam_DimArray {
 		}
 			
 		for(int i=0; i<arrs.length; i++) {
-			for(int j=0; j<arrs.length; j++) {
+			for(int j=0; j<arrs[i].length; j++) {
 				System.out.print(arrs[i][j] + " ");				
 			}
 			System.out.println();
