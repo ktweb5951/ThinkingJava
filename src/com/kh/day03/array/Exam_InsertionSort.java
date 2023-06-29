@@ -22,24 +22,42 @@ public class Exam_InsertionSort {
 		// 4하고 3비교 -> 교환
 		// {1, 2, 3, 4, 5} => 4번째 결과
 		
+//		int [] arrs = {2, 5, 4, 1, 3};
+//		//{}2,5,4,1,3}
+//		// j = 1
+//		for(int i=1; i<arrs.length ; i++) {
+//			for(int j=i;j>0;j--) {
+//				if(arrs[j-1] > arrs[j]) {
+//					int temp = arrs[j];
+//					arrs[j] = arrs[j-1];
+//					arrs[j-1] = temp;			
+//				}
+//			}			
+//		}
+//		
+//		//배열 출력
+//		for(int i = 0; i< arrs.length; i++) {
+//			System.out.print(arrs[i] + " ");
+//		}
+		/////////////////
 		int [] arrs = {2, 5, 4, 1, 3};
-		//{}2,5,4,1,3}
-		// j = 1
-		for(int i=1; i<arrs.length ; i++) {
+		
+		for(int i=1; i<arrs.length; i++) {
 			for(int j=i;j>0;j--) {
-				if(arrs[j-1] > arrs[j]) {
-					int temp = arrs[j];
+				if(arrs[j-1]>arrs[j]) {
+					int temp = arrs[j]; 
 					arrs[j] = arrs[j-1];
-					arrs[j-1] = temp;			
+					arrs[j-1] = temp;
 				}
-			}			
+			}
 		}
 		
-		//배열 출력
-		for(int i = 0; i< arrs.length; i++) {
+		for(int i=0; i<arrs.length; i++){
 			System.out.print(arrs[i] + " ");
 		}
-
+		
+		
+		
 		
 
 		// {2, 4, 5, 1, 3}

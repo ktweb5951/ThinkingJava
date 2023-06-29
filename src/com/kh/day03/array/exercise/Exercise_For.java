@@ -252,7 +252,50 @@ public class Exercise_For {
 			System.out.print("잘못 입력하셨습니다");
 		}
 	}
-
 	
+    // 6번
+    // 위 문제와 모든 것이 동일하나, 입력한 수가 2보다 작은 경우
+    // “잘못 입력하셨습니다.”를 출력하면서 다시 사용자가 값을 입력하도록 하세요.
+
+	public void loopExercise02_6()
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		
+		for(;;) {
+			System.out.print("숫자를 하나 입력하세요 : ");
+			double input = sc.nextDouble();
+			if(input>2) {
+				if(input%1 != 0 ) {
+					System.out.print("소수입니다.");
+					break;
+				} else {
+					System.out.print("정수입니다.");
+					break;
+				}
+			} else {
+				System.out.print("잘못 입력하셨습니다 \n");
+			}			
+		}
+			
+
+	}
+	
+    // 7번
+    // 2부터 사용자가 입력한 수까지의 소수를 모두 출력하고 소수의 개수를 출력하세요.
+    // 단, 입력한 수가 2보다 작은 경우 “잘못 입력하셨습니다.”를 출력하세요.
+	public void loopExercise02_7()
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.print("숫자를 입력하세요 : ");
+		double input = sc.nextDouble();
+		
+		if(input>2) {
+			
+		} else {
+			Sysetem.out.print("잘못 입력하셨습니다.");
+		}
+
+	}
 	
 }

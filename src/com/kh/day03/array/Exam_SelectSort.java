@@ -24,25 +24,25 @@ public class Exam_SelectSort {
 			//바꿔야 하는 자리는 0부터 시작해서 1씩 증가해야 했음.
 			//5. 만족하는 변수를 선언하여 1씩 증가하는 for문 작성 후 코드를 이동
 		
-//			int [] arrs = {2, 5, 4, 1, 3};
-//			int min = 0; // min은 최소값 저장하면 안되고 최소인 인덱스 값 저장
-//			
-//			for (int i = 0; i < arrs.length - 1; i++) {
-//				min = i;
-//				for (int j = i + 1; j < arrs.length; j++) {
-//					if (arrs[min] > arrs[j]) {
-//						min = j;
-//					}
-//				}
-//				int temp = arrs[i];
-//				arrs[i] = arrs[min];
-//				arrs[min] = temp;
-//			}
-//			
-//			//배열출력
-//			for(int i =0 ; i<arrs.length; i++) {
-//				System.out.print(arrs[i] + " ");
-//			}
+			int [] arrs = {2, 5, 4, 1, 3};
+			int min = 0; // min은 최소값 저장하면 안되고 최소인 인덱스 값 저장
+			
+			for (int i = 0; i < arrs.length - 1; i++) {
+				min = i;
+				for (int j = i + 1; j < arrs.length; j++) {
+					if (arrs[min] > arrs[j]) {
+						min = j;
+					}
+				}
+				int temp = arrs[i];
+				arrs[i] = arrs[min];
+				arrs[min] = temp;
+			}
+			
+			//배열출력
+			for(int i =0 ; i<arrs.length; i++) {
+				System.out.print(arrs[i] + " ");
+			}
 				
 			// {2, 5, 4 ,1 ,3}
 			// j=1, min=0;
@@ -56,16 +56,6 @@ public class Exam_SelectSort {
 			// {1, 2, 3, 5, 4}
 			// j=4, min=3
 			// 네번째 : {1, 2, 3, 4, 5}
-			
-			
-			
-			
-			int arrs[] = {2, 5, 4 ,1 ,3};
-			
-
-			
-			
-			
 			
 	}
 }

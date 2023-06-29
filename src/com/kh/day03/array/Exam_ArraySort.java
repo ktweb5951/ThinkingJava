@@ -22,14 +22,13 @@ public class Exam_ArraySort {
 	
 		int [] nums = {2,1,3};
 		//3 2 1이 되도록 바꿔보세요.
-		temp = nums[0]; //2
-		nums[0] = nums[2]; //3
-		nums[2] = temp; //2 
+		temp = nums[0];
+		nums[0] = nums[2];
+		nums[2] = temp;
 		
-		temp = nums[1]; // 1
-		nums[1] = nums[2]; // 2
-		nums[2] = temp; // 1
-		
+		temp = nums[1];
+		nums[1] = nums[2];
+		nums[2] = temp;
 		for(int i=0; i<nums.length; i++) {
 			System.out.print(nums[i] + " ");
 		}
