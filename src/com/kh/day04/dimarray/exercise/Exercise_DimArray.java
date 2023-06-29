@@ -113,8 +113,9 @@ public class Exercise_DimArray {
 		
 			System.out.println();
 		}
-
+		System.out.print("4년간 전체 평점 평균은 : " + sum/(score.length*score[0].length) + "입니다." );
 		System.out.printf("4년간 전체 평점 평균은 : %.2f\n", sum/(score.length*score[0].length));
+
 		
 	}
 }

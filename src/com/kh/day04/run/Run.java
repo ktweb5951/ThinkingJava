@@ -13,7 +13,9 @@ public class Run {
 		
 		Exercise_Exception excp = new Exercise_Exception();
 		//excp.exercise1();
-		excp.practice2();
+		//excp.practice2();
+		//excp.exercise3();
+		excp.exercise4();
 		
 	}
 
