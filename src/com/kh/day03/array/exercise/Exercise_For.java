@@ -293,7 +293,7 @@ public class Exercise_For {
 		if(input>2) {
 			
 		} else {
-			Sysetem.out.print("잘못 입력하셨습니다.");
+			System.out.print("잘못 입력하셨습니다.");
 		}
 
 	}
