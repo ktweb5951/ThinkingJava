@@ -21,6 +21,10 @@ public class Exam_MouseAdapter extends JFrame{
 		Container c = getContentPane();
 		c.setLayout(null);
 		c.add(la);
+		//추상클래스는 이렇게 사용되기도 한다.
+		//인터페이스로 구현하면 모든 추상메소드를 오버라이딩 해야하지만
+		//추상클래스로 만들면 원하는 추상메소드만 오버라이딩 해도 됨.
+		//추상클래스는 추상메소드 말고도 다른메소드를 가질 수 있기 때문임
 		c.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
